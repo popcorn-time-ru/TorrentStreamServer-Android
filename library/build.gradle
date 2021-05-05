@@ -40,10 +40,10 @@ android {
 }
 
 ext {
-    torrentStreamVersion = '2.7.0'
+    torrentStreamVersion = 'support-file-SNAPSHOT'
 }
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-    api "com.github.TorrentStream:TorrentStream-Android:${torrentStreamVersion}"
+    api "com.github.popcorn-time-ru:TorrentStream-Android:${torrentStreamVersion}"
 }
