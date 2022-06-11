@@ -1,0 +1,2 @@
+include ":StreamTorrent"
+project(":StreamTorrent").projectDir = file("../TorrentStream-Android/library")
